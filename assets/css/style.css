@@ -1,0 +1,162 @@
+#search-div {
+    text-align: center;
+    margin: auto;
+}
+
+#random-btn-body {
+    text-align: center;
+    margin: auto;
+}
+
+#map {
+    height: 500px; 
+    width: 50%; 
+    margin: 2rem auto 0;
+  }
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+  background-image: url("../images/page1.png");
+  background-size: cover;
+}
+
+.sample {
+    width: 100px;
+    height: 50px;
+  }
+
+img {
+    height: 350px;
+    width: auto;
+}
+
+.container {
+  width: 1050px;
+}
+
+.head {
+  letter-spacing: 0.2em;
+  color: white;
+}
+
+h1 {
+  width: 700px;
+  margin-left: 325px;
+  margin-right: 300px;
+  margin-top: 50px;
+  padding: 20px;
+  letter-spacing: 0.2em;
+  color: white;
+}
+
+
+#start-buttons {
+  margin-top: 150px;
+}
+
+.btn-1 {
+  height: 250px;
+  width: 250px;
+}
+
+.btn-2 {
+  height: 200px;
+  width: 200px;
+}
+
+#Vegetarian {
+  background-image: url("../images/vegetarian (1).png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain, cover; 
+  margin-bottom: 10px;
+}
+
+#Vegan {
+  background-image: url("../images/Vegan.png");
+   background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain, cover;
+  margin-bottom: 10px;
+}
+
+#Gluten-Free {
+  background-image: url("../images/glutenFree.jpg");
+   background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain, cover; 
+}
+
+#Everything {
+  background-image: url("../images/Everything.png");
+   background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size:  contain, cover; 
+}
+
+#American {
+  background-image: url("../images/American.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size:  contain, cover;
+}
+
+#Chinese {
+  background-image: url("../images/Chinese.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size:  contain, cover;
+}
+
+#Italian {
+  background-image: url("../images/Italian.png");
+   background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size:  contain, cover;
+}
+
+#Japanese {
+  background-image: url("../images/Japanese.png");
+   background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size:  contain, cover;
+}
+
+#Mediterranean {
+  background-image: url("../images/Mediterranean.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size:  contain, cover;
+}
+
+#Mexican {
+  background-image: url("../images/Mexica.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size:  contain, cover;
+}
+
+#French {
+  background-image: url("../images/French.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size:  contain, cover;
+}
+
+#Thai {
+  background-image: url("../images/Thai.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size:  contain, cover;
+}
+
+#food-search-btn-2 {
+  height: 45px;
+  position: relative;
+  top: 28px;
+}

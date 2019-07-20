@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <br>
+    <h1 id="front-page" class="text-center head">Where should I Eat?</h1>
+    <h2 id="secondary-txt" class="text-center head">Let us help you find your next meal!</h2>
+    
+
+<div class="container">
+    <br>
+    <div id="start-buttons">
+        <br>
+        <div class="row d-flex justify-content-start mb-3">
+            <div class="col-md-3"><button class="btn btn-primary" id="search-button">I know what I want!</button></div>
+            <div class="col-md-3"><button class="btn btn-primary" id="quiz-button">Take the Quiz!</button></div>
+        </div>
+    </div>
+
+    <div id="search-div">
+        <br>
+        <br>
+        <br>
+        <div class="wrapper">
+                <form class="form-inline d-flex justify-content-center mb-3">
+                        <div class="form-group mx-sm-3 mb-2">
+                          <label for="food-type">Category</label>
+                          <input type="text" class="form-control" id="food-type" placeholder="Category">
+                          <label for="food-location">Location</label>
+                          <input type="text" class="form-control" id="food-location" placeholder="Location">
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-2" id="food-search-btn">Search Now!</button>
+                      </form>
+        </div>
+    </div>
+
+    <div id="quiz-body">
+        <h2 class="text-center head">What sounds good?</h2>
+        <br>
+        <div id="quiz-body-one">
+                <div class="row d-flex justify-content-center mb-3">
+                        <div class="col-md-3 btn-1" id="Vegetarian"></div>
+                        <div class="col-md-3 btn-1" id="Vegan"></div>
+                </div>
+                <div class="row d-flex justify-content-center mb-3">
+                        <div class="col-md-3 btn-1" id="Gluten-Free"></div>
+                        <div class="col-md-3 btn-1" id="Everything"></div>
+                </div>
+            </div>
+        
+          
+        
+            <div id="quiz-body-two">
+                    <div class="row d-flex justify-content-center mb-3">
+                            <div class="col-md-3 btn-2" id="American"></div>
+                            <div class="col-md-3 btn-2" id="Chinese"></div>
+                    
+                            <div class="col-md-3 btn-2" id="Italian"></div>
+                            <div class="col-md-3 btn-2" id="Japanese"></div>
+                    </div>
+                    <br>
+                    <div class="row d-flex justify-content-center mb-3">
+                            <div class="col-md-3 btn-2" id="Mediterranean"></div>
+                            <div class="col-md-3 btn-2" id="Mexican"></div>
+                    
+                            <div class="col-md-3 btn-2" id="French"></div>
+                            <div class="col-md-3 btn-2" id="Thai"></div>
+                    </div>
+                </div>
+        
+            <div id="location">
+                <div class="wrapper">
+                    <div class="row d-flex justify-content-center mb-3">
+                            <div class="col-md-6 form-group mb-2">
+                                    <label for="food-location">Location</label>
+                                    <input type="text" class="form-control" id="food-location-2" placeholder="Location">
+                                  </div>
+                                  <button type="submit" class="btn btn-primary mb-2" id="food-search-btn-2">Search Now!</button>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div id="search-results">
+        <br>
+        <h2 class="text-center head">Here are some ideas!</h2>
+        <br>
+        <div class="text-center" id="search-results-div"></div>
+        <br>
+    </div>
+
+    <div id="final-result"></div>
+
+    <div id="map"></div>
+    <br>
+</div>
+    <br>
+
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA427Wz3aCN_GkX7H1wuQlntlBHTZFq6sk&libraries=places"
+        ></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
