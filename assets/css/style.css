@@ -22,7 +22,6 @@ html, body {
 
 body {
   background-image: url("../images/page1.png");
-  background-size: cover;
 }
 
 .sample {
@@ -46,7 +45,7 @@ img {
 
 h1 {
   width: 700px;
-  margin-left: 325px;
+  margin-left: 300px;
   margin-right: 300px;
   margin-top: 50px;
   padding: 20px;
@@ -160,3 +159,9 @@ h1 {
   position: relative;
   top: 28px;
 }
+
+/*@media screen and (max-width: 375px) {
+  body {
+    width: 400px;
+  }
+} */
