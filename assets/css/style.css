@@ -172,40 +172,11 @@ h1 {
   }
 
   #quiz-body-one {
-    margin-right: 350px;
+    margin-right: -5px;
   }
 
   #quiz-body-two {
-    margin-right: 350px;
-   
-  }
-
-  .btn-2 {
-    height: 175px;
-    width: 175px;
-  }
-
-  #start-buttons {
-    margin-left: 250px;
-  }
-
-  #food-search-btn {
-    margin-top: 0px;
-  }
-} 
-
-@media screen and (max-width: 375px) {
-  body {
-    margin-left: 200px;
-    margin-right: 200px;
-  }
-
-  #quiz-body-one {
-    margin-right: 350px;
-  }
-
-  #quiz-body-two {
-    margin-right: 350px;
+    margin-right: 5px;
    
   }
 
@@ -224,5 +195,43 @@ h1 {
 
   #search-div {
     margin-left: 275px;
+  }
+} 
+
+@media screen and (max-width: 375px) {
+  body {
+   margin-left: -50px;
+    width: 380px;
+  }
+
+  #quiz-body-one {
+    margin-right: -5px;
+  }
+
+  #quiz-body-two {
+    margin-right: 5px;
+   
+  }
+
+  .btn-2 {
+    height: 175px;
+    width: 175px;
+  }
+
+  #start-buttons {
+    margin-left: 250px;
+  }
+
+  #food-search-btn {
+    margin-top: 0px;
+  }
+
+  #search-div {
+    margin-left: 275px;
+  }
+
+  #food-location-2 {
+    width: 350px;
+    margin-left: 355px;
   }
 } 
