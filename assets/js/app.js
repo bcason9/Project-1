@@ -19,7 +19,7 @@ $("#search-button").on("click", function() {
     $("#start-buttons").hide();
     $("#search-div").show();
     //$(".container").attr("style", "background-color: azure; border: 1px solid black;");
-    $("body").attr("style", "background-image: url('assets/images/serchWindowImg.png');");
+    //$("body").attr("style", "background-image: url('assets/images/serchWindowImg.png');");
     $("#secondary-txt").hide();
 });
 
@@ -27,7 +27,7 @@ $("#quiz-button").on("click", function() {
     $("#start-buttons").hide();
     $("#quiz-body").show();
     //$(".container").attr("style", "background-color: azure; border: 1px solid black;");
-    $("body").attr("style", "background-image: url('assets/images/serchWindowImg.png');");
+    //$("body").attr("style", "background-image: url('assets/images/serchWindowImg.png');");
     $("#secondary-txt").hide();
 });
 

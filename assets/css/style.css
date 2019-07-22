@@ -1,6 +1,7 @@
 #search-div {
     text-align: center;
     margin: auto;
+    margin-left: 175px;
 }
 
 #random-btn-body {
@@ -42,6 +43,7 @@ img {
   width: 700px;
   letter-spacing: 0.2em;
   color: white;
+  margin-left: 185px;
 }
 
 h1 {
@@ -49,6 +51,7 @@ h1 {
   padding: 20px;
   letter-spacing: 0.2em;
   color: white;
+  margin-left: 185px;
 }
 
 
@@ -64,6 +67,10 @@ h1 {
 .btn-2 {
   height: 200px;
   width: 200px;
+}
+
+#food-search-btn {
+  margin-top: 7.5px;
 }
 
 #Vegetarian {
@@ -158,6 +165,35 @@ h1 {
   top: 28px;
 }
 
+@media screen and (max-width: 550px) {
+  body {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  #quiz-body-one {
+    margin-right: 350px;
+  }
+
+  #quiz-body-two {
+    margin-right: 350px;
+   
+  }
+
+  .btn-2 {
+    height: 175px;
+    width: 175px;
+  }
+
+  #start-buttons {
+    margin-left: 250px;
+  }
+
+  #food-search-btn {
+    margin-top: 0px;
+  }
+} 
+
 @media screen and (max-width: 375px) {
   body {
     margin-left: 200px;
@@ -176,5 +212,17 @@ h1 {
   .btn-2 {
     height: 175px;
     width: 175px;
+  }
+
+  #start-buttons {
+    margin-left: 250px;
+  }
+
+  #food-search-btn {
+    margin-top: 0px;
+  }
+
+  #search-div {
+    margin-left: 275px;
   }
 } 
