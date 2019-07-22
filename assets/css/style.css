@@ -39,14 +39,12 @@ img {
 }
 
 .head {
+  width: 700px;
   letter-spacing: 0.2em;
   color: white;
 }
 
 h1 {
-  width: 700px;
-  margin-left: 300px;
-  margin-right: 300px;
   margin-top: 50px;
   padding: 20px;
   letter-spacing: 0.2em;
@@ -160,8 +158,23 @@ h1 {
   top: 28px;
 }
 
-/*@media screen and (max-width: 375px) {
+@media screen and (max-width: 375px) {
   body {
-    width: 400px;
+    margin-left: 200px;
+    margin-right: 200px;
   }
-} */
+
+  #quiz-body-one {
+    margin-right: 350px;
+  }
+
+  #quiz-body-two {
+    margin-right: 350px;
+   
+  }
+
+  .btn-2 {
+    height: 175px;
+    width: 175px;
+  }
+} 
