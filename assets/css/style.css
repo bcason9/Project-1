@@ -43,7 +43,7 @@ img {
   width: 700px;
   letter-spacing: 0.2em;
   color: white;
-  margin-left: 185px;
+  margin-left: 295px;
 }
 
 h1 {
@@ -51,13 +51,12 @@ h1 {
   padding: 20px;
   letter-spacing: 0.2em;
   color: white;
-  margin-left: 185px;
 }
 
 
 #start-buttons {
   margin-top: 150px;
-  margin-left: 35px;
+  margin-left: 5px;
 }
 
 .btn-1 {
