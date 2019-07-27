@@ -1,7 +1,7 @@
 #search-div {
     text-align: center;
     margin: auto;
-    margin-left: 175px;
+    margin-left: 265px;
 }
 
 #random-btn-body {
@@ -22,7 +22,8 @@ html, body {
   }
 
 body {
-  background-image: url("../images/page1.png");
+  background-image: linear-gradient(rgb(37, 37, 145), rgb(194, 3, 194), rgb(37, 37, 145));
+  
 }
 
 .sample {
@@ -39,7 +40,7 @@ img {
   width: 1050px;
 }
 
-h1, h2 {
+h1 {
   width: 700px;
   margin-top: 35px;
   margin-left: 335px;
@@ -48,6 +49,13 @@ h1, h2 {
   color: white;
 }
 
+h2 {
+  color: white;
+}
+
+h6 {
+  color: white;
+}
 
 #start-buttons {
   margin-top: 150px;
@@ -166,6 +174,10 @@ h1, h2 {
     margin-left: 185px;
   }
 
+  h2 {
+    width: 700px;
+  }
+
   #quiz-body-one {
     margin-right: -5px;
   }
@@ -197,6 +209,10 @@ h1, h2 {
   body {
    margin-left: -50px;
     width: 380px;
+  }
+
+  h2 {
+    width: 700px;
   }
 
   #quiz-body-one {

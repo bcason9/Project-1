@@ -31,7 +31,10 @@ $("#quiz-button").on("click", function() {
     $("#secondary-txt").hide();
 });
 
-
+$("h1").on("click", function(){
+  event.preventDefault();
+  location.reload();
+})
 
 //To use this, call initMap() and pass in latitude, longitude and
 //business name. Example: initMap(lat, lng, name)
