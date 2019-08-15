@@ -22,8 +22,8 @@ html, body {
   }
 
 body {
-  background-image: linear-gradient(rgb(230, 54, 54), rgb(216, 213, 18), rgb(230, 54, 54));
-  
+  background-image: url("../images/serchWindowImg.png"), url("../images/gray_sand.png");
+  background-repeat: no-repeat, repeat;
 }
 
 .sample {
